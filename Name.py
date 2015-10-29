@@ -8,3 +8,4 @@ def lines(nombreArchivo,S):
           print i
  except:
   return("error")
+  #Si trabaje profesor!!! soy Ximena XD, estábamos hablando por skype de como resolverlo.
