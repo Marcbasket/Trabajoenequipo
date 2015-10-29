@@ -4,8 +4,10 @@ def lines(nombreArchivo,S):
   l = f.readlines()
   for i in l:
       k=i.split()
-      if S==k[2]:
+      if k[0]=="117,":
+          if S==k[3][:-25]:
+              print i
+      elif S==k[3][:-1]:
           print i
  except:
   return("error")
-  #Si trabaje profesor!!! soy Ximena XD, estábamos hablando por skype de como resolverlo.
